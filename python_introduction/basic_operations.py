@@ -5,6 +5,6 @@ add = number1 + number2
 diff = number2 - number1
 multi = number1 * number2
 
-print("Addition of " number1 " and " number2 " is" add)
-print("Subtraction of " number2 " and " number1 " is" diff)
-print("Multiplication of " number1 " and " number2 " is" multi)
+print(f"Addition of {number1} and {number2} is {add}")
+print(f"Subtraction of {number2} and {number1} is {diff}")
+print(f"Multiplication of {number1} and {number2} is {multi}")
