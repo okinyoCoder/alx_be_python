@@ -5,4 +5,4 @@ saveM = y - x
 print(f"Your monthly savings are ${saveM}")
 
 Projected = saveM * 12 + (saveM * 12 * 0.05)
-print("Projected savings after one year, with interest, is: ${Projected}")
+print(f"Projected savings after one year, with interest, is: ${Projected}")
