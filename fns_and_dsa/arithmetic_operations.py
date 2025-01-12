@@ -1,12 +1,12 @@
 def perform_operation (num1, num2, operation):
     x = float(num1)
     y = float(num2)
-    
+
     match operation:
         case "add":
             return x + y
         case "subtract":
-            return x - 
+            return x - y
         case "multiply":
             return x * y
         case "divide":
